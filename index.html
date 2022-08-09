@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--mobile format-->.  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<!--linking to style guide-->.
+<link href="./style.css" type="text/css" rel="stylesheet">
+
+<!--in page links-->.
+  <main>
+  <header>
+   <nav class="topnav" id="portfolioTopnav">
+        <a href="#Contact">Contact</a>
+        <a href="#Accomplishments">Accomplishments</a> 
+        <a href="#Skills">Skills</a>
+        <a href="#About">About</a>   
+        <a href="#title">Back to top</a>     
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+   </nav>
+        
+<!--the bit that gives the tabs its name-->.
+  <title>Paul Iacuzzo's Portfolio</title>
+  </header>
+
+<!--title-->.  
+</head>
+    <body>
+        <div id="title">
+          <h1>Paul Iacuzzo</h1>
+        </div>
+
+<!--picture-->.       
+          <div id="aboutsection">
+            <a href="https://www.linkedin.com/in/paul-iacuzzo-461a85245/" target="_blank" >
+              <figure>
+                <img src="paulpic.jpg" alt="A picture of Paul with crazy eyes" width="320" height="320"/></a>
+                <figcaption>this is me!</figcaption>
+              </figure>
+
+
+<!--About Section -->.            
+        
+          <h2  id="About"class="heading uppercase">About</h2>
+            <p>I'm a current PhD student examining hybridisation of <a href="https://www.business.qld.gov.au/industries/farms-fishing-forestry/agriculture/land-management/health-pests-weeds-diseases/pests/invasive-animals/restricted/carp"><strong>Eurasian Carp</strong></a> (<em>Cyprinus carpio</em>) strains at the Southeast Queensland invasion front of one of the most invasive fish species in the world.</p>
+        </div>
+
+<!--Skills Section -->.
+          <div id="skills">        
+            <h3 id="Skills">Skills</h3>
+            <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Collection of data in remote areas</li>
+                <li>Niche doccument discovery and referencing</li>
+                <li>Managment of large datasets</li>
+            </ul>
+            <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Working as part of small and large teams</li>
+                <li>Active listening</li>
+                <li>Conflict resolution and mediation</li>
+            </ul>
+            <h4>Technical Skills</h4>
+            <ul class="list">
+                <li>Familiar with laboratory saftey and practice </li>
+                <li>Competent with a range of GIS software packages</li>
+                <li>Passable understanding of R studio</li>
+                <li>flawless spleling</li>
+            </ul>
+        </div>
+
+<!--Accomplishmnets Section -->.       
+        <div id="accomplishementssection">
+            <h2 id="Accomplishments">Accomplishments</h4> 
+                <table>
+                    <tr>
+                      <th scope="col">Publications</th>
+                      <th scope="col">Awards</th>
+                      <th scope="col">Presentations</th>
+                    </tr>
+                    <tr>
+                      <td scope="row">0</th>
+                      <td>0</td>
+                      <td>2</td>
+                    </tr>
+                  </table>
+        </div>
+
+<!--Quiz -->. 
+          <h3 id="Codingexamples">Coding Examples</h3>
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+
+<!--Contact Section -->.      
+        <div id="contactsection" >
+          <h2 id="Contact" class="contactform">Contact</h2>
+          <a href="https://www.linkedin.com/in/paul-iacuzzo-461a85245/" target="_blank" >LinkedIn</a>
+          <br>
+          <a href="https://figshare.com/authors/paul_iacuzzo/7520168" target="_blank" >Figshare</a>
+          <br>
+          <p>Email: iacuzzo@qut.edu.au</p>
+             <form>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" value="" required>
+                <br>
+                <br>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="text" name="Email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+                <br>
+                <br>
+                <label for="Phone">Phone (optional):</label>
+                <br>
+                <input type="text" name="Phone" value="" pattern="[0-9] {10,16}">
+                <br>
+                <br>
+                <label for ="textarea">Leave your message below</label>
+                <br>
+                <textarea id="textarea" name="textarea" rows="5" cols="30" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send">
+              </form>
+        </div>
+
+<!--closing argument & adding script-->. 
+</main>      
+
+<script src="./nav.js"></script>
+
+</body>
+</html>
